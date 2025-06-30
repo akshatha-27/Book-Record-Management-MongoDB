@@ -1,0 +1,29 @@
+{
+  "name": "book-record-management",
+  "version": "1.0.0",
+  "description": "Book record management build",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshatha-27/Book-Record-Management.git"
+  },
+  "author": "Akshatha Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshatha-27/Book-Record-Management/issues"
+  },
+  "homepage": "https://github.com/akshatha-27/Book-Record-Management#readme",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
