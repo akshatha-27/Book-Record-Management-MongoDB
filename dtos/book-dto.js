@@ -16,7 +16,7 @@ class IssuedBook {
     this.genre = user.issuedBook.genre;
     this.price = user.issuedBook.price;
     this.publisher = user.issuedBook.publisher;
-    this.issuedBy = user.issuedBy;
+    this.issuedBy = user.name;
     this.issuedDate = user.issuedDate;
     this.returnDate = user.returnDate;
   }

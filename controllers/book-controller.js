@@ -1,5 +1,5 @@
 const { UserModel, BookModel } = require("../models/index");
-const issuedBook = require("../dtos/book-dto");
+const IssuedBook = require("../dtos/book-dto");
 
 //Getting all books
 exports.getAllBooks = async (req, res) => {
@@ -50,7 +50,7 @@ exports.getAllIssuedBooks = async (req, res) => {
   }
   return res.status(200).json({
     success: true,
-    message: "Users with issued books",
+    message: "Users With The Issued Books",
     data: issuedBooks,
   });
 };
