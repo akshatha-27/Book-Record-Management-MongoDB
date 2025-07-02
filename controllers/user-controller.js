@@ -149,7 +149,7 @@ exports.getSubscriptionDetailsById = async (req, res) => {
     fine:
       returnDate < currentDate
         ? subscriptionExpiration <= currentDate
-          ? 100
+          ? 100 + (currentDate - subscriptionExpiration) * 20
           : 50
         : 0,
   };
